@@ -1,6 +1,6 @@
 # Sistemas Operacionales - Parcial 1  
 
-**Nombre:** Jefry Cardona Chilito
+**Nombre:** Jefry Cardona Chilito  
 **Código:** A00320232  
 **Correo:** jefry.cardona@correo.icesi.edu.co  
 **Profesor:** Daniel Barragan  
@@ -103,25 +103,25 @@ Para obtener información del sistema operativo se utilizaron 4 comandos.
 ![](capturas/infoSO.png)
 
 ```console
-lsb_release -a
+jefry@debian:~$ lsb_release -a
 ```
 
 Este comando nos imprime cierta información de la LSB (Linux Standard Base) y su distribución y con el parámetro -a le indicamos que nos muestre toda la información.
 
 ```console
-uname -a
+jefry@debian:~$ uname -a
 ```
 
 Este comando nos imprime información del sistema y del kernel actual y con el parámetro -a le indicamos que nos muestre toda la información.
 
 ```console
-uname -r
+jefry@debian:~$ uname -r
 ```
 
 Es el mismo comando mencionado anteriormente solo que con el parámetro -r le pedimos que sólo nos muestre la distribución o versión del kernel del sistema operativo.
 
 ```console
-cat /etc/debian_version
+jefry@debian:~$ cat /etc/debian_version
 ```
 
 Este comando nos imprime la versión del sistema operativo instalado.
@@ -148,7 +148,7 @@ La pantalla con la configuración debería quedar más o menos de la siguiente f
 
 Como el parcial se está resolviendo a través de sistema operativo guest Windows 10, se utilizó la herramienta putty para conectarse remotamente a la máquina virtual a través de SSH.
 
-Para llevar a cabo este procedimiento, primero se debió consultar la ip de nuestra máquina virtual. Debemos fijarnos en la interfaz de red enp0s8 que fue la que se configuró como adaptador puente y será la que nos permita conectarnos a través de SSH.
+Para llevar a cabo este procedimiento, primero se debió consultar la ip de nuestra máquina virtual con el comando ```ip a```. Debemos fijarnos en la interfaz de red enp0s8 que fue la que se configuró como adaptador puente y será la que nos permita conectarnos a través de SSH.
 
 ![](capturas/ip_a.png)
 
@@ -163,3 +163,40 @@ Cuando presionamos Open nos saldrá una alerta por la conexión que se abrirá. 
 Luego nos aparecerá una nueva ventana pidiendonos que digitemos el usuario con el que queremos identificarnos y su respectiva constraseña. Digitamos la información que nos solicita y ya estaremos conectados remotamente a la máquina virtual Debian.
 
 ![](capturas/inicioSesionPutty.png)
+
+## Instalación git y tig
+
+Para instalar git se usó el siguiente comando:
+
+```console
+root@debian:~# apt-get install git -y
+```
+
+![](capturas/install_git.png)
+
+Para instalar tig se usó el siguiente comando
+
+```console
+root@debian:~# apt-get install tig -y
+```
+
+![](capturas/install_tig.png)
+
+Luego, procedemos a clonar el repositorio utilizando el comando
+
+```console
+root@debian:/home/jefry# git clone https://github.com/Jefry9508/so-exam1-1.git
+```
+
+![](capturas/clonarRepositorio.png)
+
+Ya teniendo clonado el repositorio del examen, accedemos a la carpeta que se acaba de crear y utilizamos el comando tig para ver los commit que se han realizado hasta el momento.
+
+```console
+root@debian:/home/jefry/so-exam1-1# tig
+```
+
+![](capturas/tig_commit.png)
+
+
+## Comparación entre Debian 9 vs. CentOS 7 
