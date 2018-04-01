@@ -226,3 +226,12 @@ root@debian:/home/jefry/so-exam1-1# tig
 
 
 ## Comparación entre Debian 9 vs. CentOS 7 
+
+| Criterio | Debian 9 | CentOS 7 |  
+| :------: | :-------: | :------: |  
+| Gestor de paquetes | apt-get | yum |  
+| Distribución | Limpio, no se basa en ningún otro SO | Basado en la distribución de Red Hat empresarial |  
+| Soporte | Ofrece soporte a largo plazo por cinco años después de la fecha de lanzamiento inicial | Tienen actualizaciones de mantenimiento durante 10 años y actualizaciones completas durante (aproximadamente) seis años |  
+| Comunidad | Es más pequeña que la de Ubuntu. Sin embargo, es activa y puede brindar ayuda y apoyo | Con una cuota de mercado del 20.4%, la base de usuarios de CentOS es más pequeña que la de Ubuntu, y como tal, hay menos asistencia de la comunidad y tutoriales en línea disponibles |  
+| Instalación | Dificil, pero con un mayor grado de control y personalización en su configuración | Dificil |  
+| Estabilidad | Lanzamientos más largos que brindan más tiempo para las pruebas antes de la publicación | Solo se lanzan versiones verdaderamente estables. Los años transcurridos entre lanzamientos garantizan mucho tiempo para realizar pruebas exhaustivas |  
