@@ -142,3 +142,24 @@ Este comando nos imprime la versión del sistema operativo instalado.
 La pantalla con la configuración debería quedar más o menos de la siguiente forma:
 
 ![](capturas/adaptadorPuente.png)
+
+
+## Acceso a través de Putty
+
+Como el parcial se está resolviendo a través de sistema operativo guest Windows 10, se utilizó la herramienta putty para conectarse remotamente a la máquina virtual a través de SSH.
+
+Para llevar a cabo este procedimiento, primero se debió consultar la ip de nuestra máquina virtual. Debemos fijarnos en la interfaz de red enp0s8 que fue la que se configuró como adaptador puente y será la que nos permita conectarnos a través de SSH.
+
+![](capturas/ip_a.png)
+
+Luego procedemos a iniciar Putty y darle su respectiva configuración. Para esto insertamos la dirección ip de nuestra máquina virtual, selccionamos el puerto 22 que es el que por defecto escucha SSH y en tipo de conexión seleccionamos SSH. La configuración de Putty quedaría de la siguiente manera.
+
+![](capturas/putty.png)
+
+Cuando presionamos Open nos saldrá una alerta por la conexión que se abrirá. Le damos en Si.
+
+![](capturas/puttyAlert.png)
+
+Luego nos aparecerá una nueva ventana pidiendonos que digitemos el usuario con el que queremos identificarnos y su respectiva constraseña. Digitamos la información que nos solicita y ya estaremos conectados remotamente a la máquina virtual Debian.
+
+![](capturas/inicioSesionPutty.png)
