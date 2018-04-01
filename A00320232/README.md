@@ -94,3 +94,51 @@ Para realizar la comprobación de la imagen, se utilizó la herramienta [MD5_and
 31. Al terminar la instalación, se despliega una pantalla diciendo que la instalación fue exitosa y que debemos reiniciar la máquina. Presionamos Continuar para reiniciar la máquina virtual.
 
 32. Ahora ya podemos interactuar con el sistema operativo, después de haberse identificado con el usuario que se creó anteriormente.
+
+
+## Información del sistema operativo
+
+Para obtener información del sistema operativo se utilizaron 4 comandos.
+
+![](capturas/infoSO.png)
+
+```console
+lsb_release -a
+```
+
+Este comando nos imprime cierta información de la LSB (Linux Standard Base) y su distribución y con el parámetro -a le indicamos que nos muestre toda la información.
+
+```console
+uname -a
+```
+
+Este comando nos imprime información del sistema y del kernel actual y con el parámetro -a le indicamos que nos muestre toda la información.
+
+```console
+uname -r
+```
+
+Es el mismo comando mencionado anteriormente solo que con el parámetro -r le pedimos que sólo nos muestre la distribución o versión del kernel del sistema operativo.
+
+```console
+cat /etc/debian_version
+```
+
+Este comando nos imprime la versión del sistema operativo instalado.
+
+
+## Configuración de interfaz tipo puente
+
+1. Para llevar a cabo esta configuración, nos vamos a la configuración de la máquina virtual y en el menú vertical izquierdo seleccionamos la opción Red.
+
+2. Se nos desplegará una pantalla a la derecha, ahí seleccionamos la pestaña que dice Adaptador 2.
+
+3. Por defecto, la opción de adaptador de red no está seleccionada, por lo cual las demás opciones están deshabilitadas. Así que seleccionamos esta casilla para poder configurar nuestra adaptador puente.
+
+4. En la opción Conectado, desplegamos el menú de opciones y escogemos Adaptador puente.
+
+5. Automáticamente después de haber seleccionado Adaptador puente, en la segunda opción que dice Nombre que hace referencia a la tarjeta de red a usar, se selecciona la que tenemos instalada en nuestro equipo. Por lo tanto, verificamos que si sea la vamos a usar y presionamos Aceptar.
+
+La pantalla con la configuración debería quedar más o menos de la siguiente forma:
+
+![](capturas/adaptadorPuente.png)
