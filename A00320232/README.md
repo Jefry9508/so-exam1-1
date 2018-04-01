@@ -86,3 +86,11 @@ Para realizar la comprobación de la imagen, se utilizó la herramienta [MD5_and
 27. Nos pregunta si queremos enviar datos de uso a los desarrolladores. Escogemos la opción que deseemos y damos en Continuar.
 
 28. A continuación nos permite elegir software adicional para nuestro sistema operativo como como el entorno de escritorio, servidor web, servidor de impresión, SSH server y algunas interfaces de desarrollo. Escogemos las que necesitemos (en mi caso SSH Server, Servidor Web y entorno de escritorio) y presionamos Continuar. (Dependiendo del software adicional que instalemos puede demorarse un poco más de los normal la instalación).
+
+29. Cuando termina de instalar todo el sistema, el instalador sugiere instalar el cargador de arranque GRUB ya que Debian será el unico sistema operativo instalado en el disco duro virtual. Por lo tanto, seleccionamos la opción Si y presionamos en Continuar.
+
+30. Se nos presenta una pantalla con los discos instalados. Así que seleccionamos el disco en el que instalamos Debian y presionamos Continuar.
+
+31. Al terminar la instalación, se despliega una pantalla diciendo que la instalación fue exitosa y que debemos reiniciar la máquina. Presionamos Continuar para reiniciar la máquina virtual.
+
+32. Ahora ya podemos interactuar con el sistema operativo, después de haberse identificado con el usuario que se creó anteriormente.
