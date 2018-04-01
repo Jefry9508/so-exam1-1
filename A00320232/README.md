@@ -224,6 +224,12 @@ root@debian:/home/jefry/so-exam1-1# tig
 
 ## Importar la máquina virtual
 
+1. En la barra de menú superior se presona en la opción Archivo y luego en la opción Importar servicio virtualizado.
+
+2. Se presiona en la carpeta con la flecha verde para cargar el archivo.
+
+3. Se navega hasta la ubicación de el archivo .OVA, se selecciona y presionamos en Abrir y luego en Next.
+
 
 ## Comparación entre Debian 9 vs. CentOS 7 
 
@@ -235,3 +241,7 @@ root@debian:/home/jefry/so-exam1-1# tig
 | Comunidad | Es más pequeña que la de Ubuntu. Sin embargo, es activa y puede brindar ayuda y apoyo | Con una cuota de mercado del 20.4%, la base de usuarios de CentOS es más pequeña que la de Ubuntu, y como tal, hay menos asistencia de la comunidad y tutoriales en línea disponibles |  
 | Instalación | Dificil, pero con un mayor grado de control y personalización en su configuración | Dificil |  
 | Estabilidad | Lanzamientos más largos que brindan más tiempo para las pruebas antes de la publicación | Solo se lanzan versiones verdaderamente estables. Los años transcurridos entre lanzamientos garantizan mucho tiempo para realizar pruebas exhaustivas |  
+| Velocidad para actualizar | Rápida para actualizaciones pequeñas. No tanto para las grandes | Sencilla y menos complicada, si solo tienes instalado software estándard y de sus repositorios |  
+| Dirigido a usuarios | Avanzados | Semi avanzados |  
+| Peso de versiones minimas | 297 MB | 362 MB |  
+| Versión del Kernel | 4,9 | 3.10 |  
