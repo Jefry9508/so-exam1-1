@@ -199,4 +199,30 @@ root@debian:/home/jefry/so-exam1-1# tig
 ![](capturas/tig_commit.png)
 
 
+## Exportar la máquina virtual
+
+1. Vamos a la barra de menú superior y presionamos en Archivo y luego en Exportar servicio virtualizado.
+
+![](capturas/paso1.png)
+
+2. Escogemos la máquina virtual a exportar, en nuestr caso Debian 9, y presionamos Next.
+
+![](capturas/paso2.png)
+
+3. Seleccionamos la ubicación en donde queremos exportar la máquina virtual. El formato lo dejamos como está y presionamos en Next.
+
+![](capturas/paso3.png)
+
+4. Se nos presenta una pantalla con algunos detalles de la máquina virtual. Presionamos en Exportar.
+
+![](capturas/paso4.png)
+
+5. VirtualBox comenzará a exportar la máquina virtual.
+
+![](capturas/paso5.png)
+
+
+## Importar la máquina virtual
+
+
 ## Comparación entre Debian 9 vs. CentOS 7 
