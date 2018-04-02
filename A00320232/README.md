@@ -226,9 +226,31 @@ root@debian:/home/jefry/so-exam1-1# tig
 
 1. En la barra de menú superior se presona en la opción Archivo y luego en la opción Importar servicio virtualizado.
 
+![](capturas/paso2-1.png)
+
 2. Se presiona en la carpeta con la flecha verde para cargar el archivo.
 
+![](capturas/paso2-2.png)
+
 3. Se navega hasta la ubicación de el archivo .OVA, se selecciona y presionamos en Abrir y luego en Next.
+
+![](capturas/paso2-3.png)
+
+4. Aparecerá una pantalla con alguna características y configuraciones de la máquina virtual. Presionamos Importar.
+
+![](capturas/paso2-4.png)
+
+5. La máquina comenzará en importarse en VirtualBox.
+
+![](capturas/paso2-5.png)
+
+6. Vamos a Configuración, luego al menú de Red y revisamos que la tarjeta de red sea la del computador actual, si no lo es escogemos la adecuada y presionamos en Aceptar.
+
+![](capturas/paso2-6.png)
+
+7. Iniciamos la máquina virtual y ya podremos acceder con nuestro usuario y contraseña.
+
+![](capturas/paso2-7.png)
 
 
 ## Comparación entre Debian 9 vs. CentOS 7 
